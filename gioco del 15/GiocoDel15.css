@@ -1,0 +1,78 @@
+﻿html {
+    height: 100%;
+    display: grid;
+}
+
+body {
+    margin: auto;
+    background-color: antiquewhite;
+    font-family: Georgia;
+}
+
+#board {
+    display: inline-block;
+    /*background-image: url("https://15-puzzle-game--joyalmathew.repl.co/board.jpeg");*/
+    /*background-image: url("https://pbs.twimg.com/profile_images/1214507099260162048/woWHXZzc.jpg");*/
+   /* background-image: url("https://www.extralevel.it/wp-content/uploads/2019/03/Texture-Legno-0000002.jpg");*/
+    background-image: url("https://images.freeimages.com/images/large-previews/9eb/wood-textures-1296630.jpg");
+    /*background-image: url('images/tamplate legno.jpeg');*/
+    /*background-repeat:no-repeat;*/
+    background-size: auto;
+    padding: 10px;
+    box-shadow: 10px 20px #9b857a;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#display {
+    margin-left: 0px;
+    float: right;
+    /*font-size: 20pt;*/
+}
+
+#menu {
+    display: grid;
+    font-size: 17pt;
+    font-weight: bold;
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+
+    #menu p {
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    #menu input {
+        font-family: Georgia;
+        font-weight: bold;
+         /*font-size: 25px;*/
+        /* height: 30px;*/
+    }
+
+    #menu button {
+        font-family: Georgia;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        height: 40px;
+        width: 80px;
+        border-radius: 10px;
+        background-color: black;
+    }
+
+        #menu button:hover {
+            background-color: transparent;
+            border-color: black;
+            color: black;
+        }
+
+        #content {
+            margin: auto;
+            width: 450px;
+        }
+
+      
